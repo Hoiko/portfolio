@@ -1,0 +1,477 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+@font-face {
+	font-family: 'Christmas Cookies';
+	src: url('../fonts/ChristmasCookies/ChristmasCookies.eot');
+	src: url('../fonts/ChristmasCookies/ChristmasCookies.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ChristmasCookies/ChristmasCookies.woff2') format('woff2'),
+		url('../fonts/ChristmasCookies/ChristmasCookies.woff') format('woff'),
+		url('../fonts/ChristmasCookies/ChristmasCookies.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Eternity Tomorrow';
+	src: url('../fonts/EternityTomorrow/EternityTomorrow.eot');
+	src: url('../fonts/EternityTomorrow/EternityTomorrow.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/EternityTomorrow/EternityTomorrow.woff2') format('woff2'),
+		url('../fonts/EternityTomorrow/EternityTomorrow.woff') format('woff'),
+		url('../fonts/EternityTomorrow/EternityTomorrow.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Aristotle Punk';
+	src: url('../fonts/AristotlePunk.eot');
+	src: url('../fonts/AristotlePunk/AristotlePunk.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AristotlePunk/AristotlePunk.woff') format('woff'),
+		url('../fonts/AristotlePunk/AristotlePunk.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Earth Orbiter';
+	src: url('../fonts/EarthOrbiter/EarthOrbiter.eot');
+	src: url('../fonts/EarthOrbiter/EarthOrbiter.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/EarthOrbiter/EarthOrbiter.woff') format('woff'),
+		url('../fonts/EarthOrbiter/EarthOrbiter.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body{
+
+	background-color: #F5F5DC;
+}
+.home{
+	color: #F5F5DC;
+	text-align: center;
+	font-family: "Earth Orbiter";
+	font-size: 40px;
+	width: 100%;
+	height: 100vh;
+	background: transparent;
+}
+.glyphicon-triangle-bottom{
+
+}
+h1{
+	font-size: 50px!important;
+	padding-top: 360px;
+}
+.home h2{
+	font-size: 40px!important;
+	margin-bottom: 0;
+}
+.status{
+	font-size: 60px;
+	margin-top: 260px;
+}
+.skill{
+	width: 100%;
+	height: 100vh;
+	background: url("../images/Blue-water-bubble-white-background_1600x1200_wallpaper.jpg");
+	background-size: 100% 125%;
+	background-repeat: no-repeat;
+}
+.situation{
+	width: 100%;
+	height: 100vh;
+	background: transparent;
+}
+.project{
+	font-family: "Earth Orbiter";
+	width: 100%;
+	height: 100vh;
+}
+.hobbies{
+	width: 100%;
+	height: 100vh;
+	background: transparent;
+}
+.contact{
+	width: 100%;
+	height: 100vh;
+}
+.parallax-window {
+    min-height: 100vh;
+    background: transparent;
+}
+header{
+	font-family: "Earth Orbiter";
+	color: #F5F5DC;
+	text-align: center;
+}
+#header.fixed {
+	z-index: 5;
+	position:fixed;
+	width:100%;
+	top:0;
+	left:0;
+	margin-top:0;
+}
+.photoprofil img{
+	width: 100%;
+}
+.photoprofil{
+	margin: 0 auto;
+	margin-top: 50px;
+	overflow:hidden;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border-radius:100px;
+    width:180px;
+    height:180px;
+    background: url('../images/pfphtoo.JPG');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    -moz-box-shadow: 0px 0px 10px #343434;
+	-webkit-box-shadow: 0px 0px 10px #343434;
+	-o-box-shadow: 0px 0px 10px #343434;
+	box-shadow: 0px 0px 10px #343434;
+}
+@keyframes bounce {
+  from {top: 106px;}
+  50%  {top: 86px;}
+  to   {top: 106px;}
+}
+
+@-moz-keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+.glyphicon-triangle-bottom{
+	color: #F5F5DC;
+	animation: bounce 0.7s ease infinite;
+}
+.pad{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	/*border: solid #FFFFFF 1px;*/
+}
+.pad a, .pad a:hover{
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	color: #F5F5DC;
+}
+.pad:hover{
+	border-bottom: solid #F5F5DC 2px;
+}
+.mar-li{
+	margin-top: 40px;
+	font-size: 16px;
+}
+.log-mar a{
+	margin: 20px;
+}
+.title{
+	font-weight: bold;
+	position: relative;
+	z-index: 2;
+	font-family: "Earth Orbiter";
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 30px;
+	border-bottom: solid 2px #000000;
+}
+#title1.fixed2{
+	margin-top: 130px;
+}
+#title1{
+	/*position: absolute;*/
+	padding-top: 10px;
+	/*left: 46%;*/
+	font-weight: bold;
+	margin-top: 15px;
+}
+#title2{
+	position: absolute;
+	z-index:0;
+	padding-top: 10px;
+	font-weight: bold;
+	margin-top: 15px;
+	left: 46%;
+
+}
+#title3{
+	position: absolute;
+	z-index:0;
+	font-weight: bold;
+	margin-top: 15px;
+	padding-top: 10px;
+	font-weight: bold;
+	left: 46%;
+}
+.title2{
+	padding-top: 15px;
+	color: #F5F5DC;
+	font-weight: bold;
+}
+.title3{
+	font-weight: bold;
+	padding-top: 15px;
+	border-top: solid 2px #000000;
+}
+#slides {
+      display:none;
+}
+#menu_projects{
+	padding: 20px;
+	font-size: 16px;
+}
+#project1{
+	text-align: center;
+	color: #F5F5DC;
+}
+#project2{
+	text-align: center;
+	color: #F5F5DC;
+}
+#project3{
+	text-align: center;
+	color: #F5F5DC;
+}
+.pad2{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	/*border: solid #FFFFFF 1px;*/
+}
+.pad2 a, .pad2 a:hover{
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	color: #F5F5DC;
+	padding-bottom: 5px;
+}
+.pad2:hover{
+	border-bottom: solid #F5F5DC 2px;
+}
+
+#bgvid{position:relative;
+	float: right;
+min-width:35%;min-height:35%;
+width:auto;height:auto; z-index:-999;
+overflow:hidden;}
+
+#bgvid2{position:relative;
+	float: right;
+min-width:35%;min-height:35%;
+width:auto;height:auto; z-index:-999;
+overflow:hidden;}
+#test{
+	height: 10vh;
+	overflow: hidden;
+	padding-top: 0;
+	padding-right: 0;
+}
+#test2{
+	height: 10vh;
+	overflow: hidden;
+	padding-top: 0;
+	padding-right: 0;
+}
+/*#test3{
+	height: 10vh;
+	overflow: hidden;
+	padding-top: 0;
+	padding-right: 0;
+}*/
+.navbar{
+	margin-bottom: 0!important
+}
+#carousel-example-generic{
+
+	top:10vh;
+
+}
+#carousel-example-generic2{
+
+	top:10vh;
+
+}
+#carousel-example-generic3{
+
+	top:10vh;
+
+}
+#cloud{
+	text-align: center;
+	margin-top: 10vh;
+}
+#cloud p{
+	margin-top: 10px;
+	font-size: 16px;
+}
+.items img{
+	height: 100%;
+}
+.carousel-indicators li{
+	background-color: #19B5FE!important;
+}
+
+#quizz{
+	text-align: center;
+	margin-top: 10vh;
+}
+#quizz p{
+	margin-top: 10px;
+	font-size: 16px;
+}
+#cssgenerator{
+	text-align: center;
+	margin-top: 10vh;
+}
+#cssgenerator p{
+	margin-top: 10px;
+	font-size: 16px;
+}
+.firstc{
+	color: #000!important;
+}
+.first2{
+	color: #bdc3c7!important;
+}
+.marg-form{
+	margin-top: 50px;
+}
+.marg-mail{
+	font-family: "Earth Orbiter";
+	margin-top: 50px;
+	text-align: center;
+}
+.black-contour{
+	border: 2px solid #000;
+	height: 25vh;
+	margin-top: 55px;
+}
+footer{
+	color:#F5F5DC;
+	padding: 10px;
+	height: 9vh;
+	margin-top: 40px;
+}
+.center{
+	text-align: center;
+	font-weight: bold;
+}
+.center h3{
+	font-family: "Earth Orbiter";
+}
+.center li{
+	font-size: 16px;
+	padding: 5px;
+	list-style: none;
+}
+.center ul{
+	margin-top: 40px;
+}
+.center img{
+	margin-top: 40px;
+}
+.mrg{
+	margin-top: 80px;
+}
+.anim-right{
+	position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   { left: -33.33%; top:0px;}
+    100%  {left:0px; top:0px;}   
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   { left: -33.33%; top:0px;}
+    100%  {left:0px; top:0px;} 
+}
+.anim-left{
+	position: relative;
+    -webkit-animation-name: lol; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: lol;
+    animation-duration: 4s;
+}
+@-webkit-keyframes lol {
+    0%   { right: -33.33%; top:0px;}
+    100%  {right:0px; top:0px;}   
+}
+
+/* Standard syntax */
+@keyframes lol {
+    0%   { right: -33.33%; top:0px;}
+    100%  {right:0px; top:0px;} 
+}
+.transp{
+	background-color: rgba(255, 255, 255, 0.5);
+	height: 30vh;
+	margin-top: 50px;
+}
+#mrg{
+	margin-top: 190px!important;
+}
+.bold h3{
+	font-size: 30px !important;
+	font-weight: bold;
+}
+.hght{
+	height: 20vh;
+}
+.mg{
+	margin-top: 130px!important;
+}
+.neg ul{
+	margin-top: 20px!important;
+}
+.sze li{
+	font-size: 22px!important;
+	font-weight: bold;
+	font-family: "Earth Orbiter";
+
+}
+.logo img{
+	width: 150px;
+	height: 150px;
+	margin-top: 50px;
+}
+.logo2 img{
+	width: 130px;
+	height: 130px;
+	margin-top: 60px;
+}
+.logo3 img{
+	width: 120px;
+	height: 120px;
+	margin-top: 60px;
+}
+.mrglogo{
+	margin-top: 9vh
+}
